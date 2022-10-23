@@ -10,21 +10,3 @@
     display: flex;
     flex-direction: column;
 }
-/* @media screen and (max-width: 1024px) {
-    .page {
-        max-width: 1024px;
-        min-height: 100vh;
-    }
-  }
-  @media screen and (max-width: 768px) {
-    .page {
-        max-width: 768px;
-        min-height: 100vh;
-    }
-  } 
-  @media screen and (max-width: 320px) {
-    .header {
-        max-width: 320px;
-        min-height: 100vh;
-    }
-  }  */
