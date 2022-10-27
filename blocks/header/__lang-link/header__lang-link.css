@@ -1,7 +1,5 @@
 .header__lang-link {
-    /* display: flex; */
     justify-content: flex-end;
-    /* gap: 20px; */
     color: #fff;
     padding: 0;
 }

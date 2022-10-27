@@ -1,25 +1,25 @@
 .content__section {
   box-sizing: border-box;
-  padding: 0 148px 0;
+  margin: 0 148px 0;
   width: 100%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 @media screen and (max-width: 1124px) {
   .content__section {
-    padding: 0 48px 0;
+    margin: 0 48px 0;
   }
 }
 
 @media screen and (max-width: 984px) {
   .content__section {
-    padding: 0;
+    margin: 0;
   }
 }
 
 @media screen and (max-width: 568px) {
   .content__section {
-    padding: 0 2px 0;
+    margin: 0 2px 0;
   }
 }
 
