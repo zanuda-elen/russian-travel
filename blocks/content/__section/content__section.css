@@ -17,6 +17,13 @@
   }
 }
 
+/*возможно стоит убрать, проба для разрешения 786*/
+@media screen and (max-width: 769px) {
+  .content__section {
+    margin: 0;
+  }
+}
+
 @media screen and (max-width: 568px) {
   .content__section {
     margin: 0 2px 0;

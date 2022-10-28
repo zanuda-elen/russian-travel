@@ -25,12 +25,12 @@
     }
   }
 
-  @media screen and (max-width: 860px) {
+  @media screen and (max-width: 769px) {
     .lead {
-      height: 862px;
+      height: 100%;
       width: 100%;
       background-color: goldenrod;
-    }
+     }
   }
 
   @media screen and (max-width: 568px) {

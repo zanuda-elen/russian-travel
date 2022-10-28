@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-self: center;
-    align-items: center;
+    align-items: flex-end;
     padding: 0 48px 0;
     box-sizing: border-box;
     min-width: 90%;
@@ -22,7 +22,7 @@
     }
   }
 
-  @media screen and (max-width: 860px) {
+  @media screen and (max-width: 769px) {
     .header {
         width: 288px;
         height: 42px;
@@ -32,8 +32,6 @@
 
   @media screen and (max-width: 568px) {
     .header {
-        width: 288px;
-        height: 42px;
-        padding: 0 16px 0;
+        min-width: 80%;
     }
   }

@@ -11,14 +11,20 @@
     align-self: flex-start;
 }
 
- @media screen and (max-width: 860px) {
+@media screen and (max-width: 984px) {
   .lead__caption {
     padding: 8px 0 0 24px;
   }
 }
 
-@media screen and (max-width: 568px) {
+ @media screen and (max-width: 769px) {
   .lead__caption {
-    padding: 8px 0 0 15px;
+    padding: 8px 0 0 16px;
   }
 }
+
+/* @media screen and (max-width: 568px) {
+  .lead__caption {
+    padding: 8px 0 0 16px;
+  }
+} */
