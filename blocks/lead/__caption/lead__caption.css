@@ -2,10 +2,10 @@
     margin: 0;
     padding: 8px 0 0;
     max-width: 158px;
-    /* min-height: 14px; */
     line-height: 14px;
     font-size: 10px;
     font-weight: 400px;
+    letter-spacing: 1.5px;
     text-align: start;
     display: flex;
     align-self: flex-start;
