@@ -1,24 +1,28 @@
 .content__intro {
-  margin: 0 442px 0 148px;
+  padding-left: 148px;
+  padding-right: 442px;
   width: 100%;
+  box-sizing: border-box;
+  background-color: aquamarine;
   /* margin: 0 auto; */
 }
 
 @media screen and (max-width: 1124px) {
   .content__intro {
-    margin: 0 286px 0 48px;
+    padding-left: 48px;
+    padding-right: 286px;
   }
 }
 
 @media screen and (max-width: 769px) {
   .content__intro {
-    margin: 0 24px;
+    padding-left: 0 24px 0;
   }
 }
 
 @media screen and (max-width: 568px) {
   .content__intro {
-    margin: 0 16px 0;
+    padding: 0 16px 0;
   }
 }
 

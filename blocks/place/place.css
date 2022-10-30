@@ -1,0 +1,14 @@
+.place {
+  display: grid;
+  /* grid-template-columns: minmax(min-content, max-content) 1fr;
+  grid-template-rows: fit-content(660px) 1fr 1fr;
+  grid-template-areas:
+  "title url"
+  "image paragraph1"
+  "image paragraph2"; */
+  grid-template-columns: 460px 484px;
+  gap: 48px 40px;
+  width: 984px;
+  width: 100%;
+  /* height: 660px; */
+}

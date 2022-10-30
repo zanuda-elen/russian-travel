@@ -1,21 +1,38 @@
 .intro {
   display: flex;
   flex-direction: column;
-  max-width: 690px;
-  height: 429px;
+  align-self: start;
+  width: 690px;
+  min-height: 429px;
+  padding-left: 148px;
+  padding-right: 442px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: grey;
+}
+
+@media screen and (max-width: 1124px) {
+  .intro {
+    padding-left: 48px;
+    padding-right: 286px;
+  }
 }
 
 @media screen and (max-width: 769px) {
   .intro {
-    max-width: 720px;
-    height: 429px;
+    /* max-width: 720px; */
+    width: 100%;
+    min-height: 429px;
+    padding-left: 24px;
   }
 }
 
 @media screen and (max-width: 568px) {
   .intro {
-    width: 288px;
+    min-width: 288px;
+    max-width: 320px;
     min-height: 754px;
+    padding: 0 16px 0;
   }
 }
 
