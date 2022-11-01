@@ -3,3 +3,16 @@
   line-height: 1.63;
   margin: 0;
 }
+
+ @media screen and (max-width: 769px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .place__paragraph {
+    padding: 0 16px 0;
+  }
+}
+
