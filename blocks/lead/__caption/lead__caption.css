@@ -1,15 +1,16 @@
 .lead__caption {
     margin: 0;
     padding: 8px 0 0;
-    max-width: 158px;
-    line-height: 14px;
+    line-height: 1.4;
     font-size: 10px;
-    font-weight: 400px;
+    font-weight: 400;
     letter-spacing: 1.5px;
+    text-transform: uppercase;
     text-align: start;
     display: flex;
     align-self: flex-start;
 }
+
 
 @media screen and (max-width: 984px) {
   .lead__caption {
@@ -17,14 +18,8 @@
   }
 }
 
- @media screen and (max-width: 769px) {
+@media screen and (max-width: 568px) {
   .lead__caption {
     padding: 8px 0 0 16px;
   }
 }
-
-/* @media screen and (max-width: 568px) {
-  .lead__caption {
-    padding: 8px 0 0 16px;
-  }
-} */

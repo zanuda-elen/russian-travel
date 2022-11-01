@@ -1,7 +1,7 @@
 .content {
     display: grid;
     row-gap: 92px;
-    justify-content: center;
+    justify-items: center;
 }
 
 @media screen and (max-width: 984px) {

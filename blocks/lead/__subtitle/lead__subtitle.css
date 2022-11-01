@@ -6,6 +6,8 @@
     font-weight: 400;
     margin: 0 0 64px;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 @media screen and (max-width: 1124px) {
@@ -14,7 +16,7 @@
     }
   }
 
- @media screen and (max-width: 769px) {
+ @media screen and (max-width: 767px) {
   .lead__subtitle {
     font-size: 25px;
     line-height: 30px;
