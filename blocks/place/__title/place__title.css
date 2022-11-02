@@ -11,13 +11,6 @@
     line-height: 1.1
   }
 }
-/*
- @media screen and (max-width: 769px) {
-  .place__title {
-    font-size: 42px;
-    line-height: 1.1
-  }
-} */
 
 @media screen and (max-width: 568px) {
   .place__title {

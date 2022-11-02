@@ -6,7 +6,7 @@
   column-gap: 40px;
   align-self: center;
   width: 984px;
-  background-color: green;
+  /* background-color: green; */
 }
 
 @media screen and (max-width: 1124px) {
@@ -18,7 +18,6 @@
   }
 }
 
- /* на промежутке от 930 до 768 верстка ломается добавлена точка 984, в плейс и плейсес блоки сдвигаютсяю т.к. контент занимает ширину 880, а макс ширина блока плейсес 720*/
 @media screen and (max-width: 984px) {
   .place {
     grid-template-columns: minmax(340px, 1fr) minmax(min-content, 352px);;
@@ -29,17 +28,7 @@
   }
 }
 
- @media screen and (max-width: 769px) {
-  .place {
-    grid-template-columns: minmax(340px, 1fr) minmax(min-content, max-content);;
-    grid-template-rows: minmax(min-content, max-content) minmax(440px, 1fr);
-    row-gap: 48px;
-    column-gap: 28px;
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 767px) {
   .place {
     grid-template-columns: minmax(320px, 1fr);
     grid-template-rows: minmax(min-content, max-content);

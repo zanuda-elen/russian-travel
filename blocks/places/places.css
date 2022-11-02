@@ -1,46 +1,41 @@
-/*пробуем заменить все на калк*/
 .places {
-  display: grid;
-  /* width: 984px; */
-  width: 100%;
-  max-width: 1280px;
-  padding: 0 148px 0;
-  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 984px;
   justify-content: center;
   align-self: center;
   align-items: center;
   row-gap: 80px;
-  background-color: brown;
 }
 
 @media screen and (max-width: 1124px) {
   .places {
-    padding: 0 48px 0;
-    width: 100%;
-    max-width: 1024px;
-    /* width: 100%; */
-    /* width: calc(100% - 48px); */
-    /* margin: auto; */
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 984px) {
   .places {
     padding-left: 48px;
+    box-sizing: border-box;
     width: 100%;
     max-width: 768px;
-    /* width: calc(100% - 24px); */
   }
 }
 
- /* @media screen and (max-width: 769px) {
+ @media screen and (max-width: 767px) {
   .places {
-    min-width: 720px;
-} */
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+    align-items: center;
+}
+ }
 
 @media screen and (max-width: 568px) {
   .places {
-    min-width: 320px;
-    /* padding: 0 16px 0; */
+    width: 320px;
+    padding: 0;
   }
 }

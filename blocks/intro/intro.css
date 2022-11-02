@@ -8,7 +8,6 @@
   padding-right: 442px;
   width: 100%;
   box-sizing: border-box;
-  background-color: grey;
 }
 
 @media screen and (max-width: 1124px) {
@@ -18,12 +17,17 @@
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 984px) {
   .intro {
-    /* max-width: 720px; */
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
     width: 100%;
     min-height: 429px;
-    padding-left: 24px;
   }
 }
 
