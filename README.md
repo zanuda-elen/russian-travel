@@ -17,5 +17,5 @@
 
 Для адаптации под ширину экранов устройств использованы CSS Media Queries  
 Для построения каркаса сайта технологии CSS Flexbox, CSS Grid Layout  
-Проект опубликован на GitHub Pages [GitHub Pages](https://zanuda-elen.github.io/russian-travel/)
+Проект опубликован на [GitHub Pages](https://zanuda-elen.github.io/russian-travel/)
 
