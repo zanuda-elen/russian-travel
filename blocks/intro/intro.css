@@ -8,6 +8,7 @@
   padding-right: 442px;
   width: 100%;
   box-sizing: border-box;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
 @media screen and (max-width: 1124px) {
@@ -36,7 +37,7 @@
     min-width: 288px;
     max-width: 320px;
     min-height: 754px;
-    padding: 0 16px 0;
+    padding: 0 16px 128px;
   }
 }
 

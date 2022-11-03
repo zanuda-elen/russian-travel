@@ -1,7 +1,7 @@
 .photo-grid {
   width: 100%;
-  padding: 0 48px 0;
-  background-color: brown;
+  padding-left: 48px;
+  padding-right: 48px;
   box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
@@ -9,6 +9,7 @@
   align-self: center;
   justify-content: center;
   justify-items: center;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
 @media screen and (max-width: 1124px) {

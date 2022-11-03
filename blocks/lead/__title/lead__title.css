@@ -8,6 +8,7 @@
     text-align: center;
     display: flex;
     flex-wrap: wrap;
+    text-rendering: optimizeLegibility;
 }
 
 @media screen and (max-width: 767px) {
@@ -20,8 +21,6 @@
 
   @media screen and (max-width: 568px) {
     .lead__title {
-    /* max-width: 288px;
-    min-height: 88px;  */
     font-size: 40px;
     line-height: 44px;
     padding: 0 0 16px;
