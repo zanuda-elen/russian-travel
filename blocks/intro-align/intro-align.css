@@ -1,0 +1,27 @@
+.intro-align {
+  display: flex;
+  flex-direction: column;
+  width: 984px; /*проба на макс*/
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 1124px) {
+  .intro-align {
+      max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .intro-align {
+      width: 100%;
+      padding: 0 24px 0;
+      box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .intro-align {
+      max-width: 320px;
+      padding: 0 16px 0;
+  }
+}

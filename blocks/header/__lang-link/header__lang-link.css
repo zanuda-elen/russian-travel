@@ -1,7 +1,6 @@
 .header__lang-link {
-    justify-content: flex-end;
-    color: #fff;
-    padding: 0;
+  color: #fff;
+  padding: 0;
 }
 
 .header__lang-link:hover {

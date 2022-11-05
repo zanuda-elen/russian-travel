@@ -6,9 +6,7 @@
 
 @media screen and (max-width: 568px) {
   .intro__text {
-    margin: 0 0 34px;
-    font-style: normal;
+      margin: 0 0 34px;
+      font-style: normal;
   }
 }
-
-

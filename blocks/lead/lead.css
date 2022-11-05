@@ -1,42 +1,34 @@
 .lead {
-    display: flex;
-    margin: 0 auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    box-sizing: border-box;
-    max-width: 1280px;
-    height: 1005px;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 984px;
+  background-color: bisque;
 }
 
 @media screen and (max-width: 1124px) {
-    .lead {
-      width: 928px;
-      height: 962px;
-      margin: 0 auto;
-    }
+  .lead {
+      max-width: 928px;
   }
+}
 
 @media screen and (max-width: 984px) {
-    .lead {
-      width: 768px;
-      max-height: 862px;
-    }
+  .lead {
+      max-width: 768px;
   }
+}
 
 @media screen and (max-width: 767px) {
-    .lead {
+  .lead {
       width: 100%;
-     }
   }
+}
 
 @media screen and (max-width: 568px) {
-    .lead {
-      height: 406px;
-      width: 320px;
-      padding-left: 2px;
-      padding-right: 2px;
-    }
+  .lead {
+      max-width: 320px;
+      padding: 0 2px 64px;
+      box-sizing: border-box;
   }
+}
