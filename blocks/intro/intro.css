@@ -10,13 +10,11 @@
 @media screen and (max-width: 1124px) {
   .intro {
       max-width: 928px;
-      width: 100%;
   }
 }
 
 @media screen and (max-width: 984px) {
   .intro {
-      width: 100%;
       max-width: 768px;
       padding: 0 24px 0;
       box-sizing: border-box;
@@ -26,7 +24,6 @@
 @media screen and (max-width: 568px) {
   .intro {
       max-width: 320px;
-      width: 100%;
       padding: 0 16px 64px;
   }
 }

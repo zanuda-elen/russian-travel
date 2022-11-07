@@ -2,9 +2,10 @@
   display: grid;
   justify-content: space-between;
   grid-auto-flow: column;
-  align-self: center;
   margin: 0 auto;
-  width: 100%;
+  box-sizing: border-box;
+  padding: 0 48px 0;
+  min-width: 100%;
   max-width: 1184px;
 }
 
@@ -17,6 +18,7 @@
 @media screen and (max-width: 984px) {
   .footer {
       max-width: 720px;
+      padding: 0 24px 0;
   }
 }
 
@@ -26,6 +28,7 @@
       grid-auto-flow: row;
       grid-template-columns: minmax(min-content, max-content);
       justify-content: center;
+      padding: 0;
   }
 }
 
