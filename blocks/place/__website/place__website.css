@@ -5,14 +5,14 @@
 
 @media screen and (max-width: 767px) {
   .place__website {
-      padding: 0 24px 0;
-      box-sizing: border-box;
+      text-align: center;
   }
 }
 
 @media screen and (max-width: 568px) {
   .place__website {
       padding: 0 16px 0;
+      box-sizing: border-box;
+      text-align: start;
   }
 }
-

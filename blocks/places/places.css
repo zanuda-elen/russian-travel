@@ -21,10 +21,16 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .places {
+      max-width: 100%;
+      row-gap: 50px;
+  }
+}
+
 @media screen and (max-width: 568px) {
   .places {
       max-width: 320px;
-      row-gap: 50px;
       padding-bottom: 66px;
   }
 }
